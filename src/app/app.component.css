@@ -9,6 +9,7 @@ mat-toolbar {
   .content-wrapper {
     max-width: 1400px;
     margin: auto;
+    
   }
   
   .container-wrapper {
@@ -19,12 +20,15 @@ mat-toolbar {
   .container {
     width: 400px;
     margin: 0 25px 25px 0;
+    
   }
   
   .list {
     border: solid 1px #ccc;
     min-height: 60px;
     border-radius: 4px;
+    -webkit-box-shadow: 5px 5px 12px 0px #000000; 
+box-shadow: 5px 5px 12px 0px #000000;
   }
   
   app-new-task {
@@ -45,4 +49,6 @@ mat-toolbar {
   .cdk-drag-placeholder {
     opacity: 0;
   }
+
+  
   
