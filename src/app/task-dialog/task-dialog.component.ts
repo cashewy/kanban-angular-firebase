@@ -33,11 +33,8 @@ export class TaskDialogComponent {
   
   //private backupTask: Partial<Task> = { ...this.data.task };
 
-  cancel(): void {
-    if (this.backupTask) {
-      this.data.task = { ...this.backupTask };
-    }
-    this.dialogRef.close(this.data);
+  public onCancel(): void {
+    this.dialogRef.close(this.backupTask);
   }
 
 }
