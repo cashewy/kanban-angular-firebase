@@ -7,7 +7,7 @@ import { MatInputModule } from '@angular/material/input';
 import { MatButtonModule } from '@angular/material/button';
 import { MatDialogModule } from '@angular/material/dialog'; 
 import { FormsModule } from '@angular/forms'; 
-
+import { MatIcon } from '@angular/material/icon';
 @Component({
   selector: 'app-task-dialog',
   imports: [CommonModule,
@@ -15,7 +15,7 @@ import { FormsModule } from '@angular/forms';
     MatInputModule,
     MatButtonModule,
     MatDialogModule,
-  FormsModule],
+  FormsModule,MatIcon],
   templateUrl: './task-dialog.component.html',
   styleUrl: './task-dialog.component.css'
 })
